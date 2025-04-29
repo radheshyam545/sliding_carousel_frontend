@@ -106,7 +106,7 @@ const HorizontalCarousel = () => {
           <div className="w-12 h-12 border-4 border-t-pink-400 border-gray-600 rounded-full animate-spin"></div>
         </div>
       ) : error ? (
-        <div className="flex flex-col justify-center items-center h-64 text-white">
+        <div className="flex flex-col justify-center items-center h-64 text-black">
           <p className="text-lg font-medium mb-4">{error}</p>
           <button
             onClick={handleRetry}
